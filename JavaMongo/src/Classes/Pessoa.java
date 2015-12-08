@@ -11,7 +11,7 @@ import com.mongodb.BasicDBObject;
  *
  * @author 5105870
  */
-public class Pessoa extends String
+public class Pessoa extends BasicDBObject
 {
    private int Id;
    private String Nome;
